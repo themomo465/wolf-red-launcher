@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WOLF RED LAUNCHER</title>
+  <meta name="description" content="Site officiel de WOLF RED LAUNCHER, le launcher gaming au style noir et rouge.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #090909;
+      color: #f5f5f5;
+    }
+    header {
+      padding: 22px 8%;
+      border-bottom: 1px solid #292929;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 21px; font-weight: bold; }
+    .logo span { color: #ed202b; }
+    nav a, footer a {
+      color: #ddd;
+      margin-left: 16px;
+      text-decoration: none;
+    }
+    nav a:hover, footer a:hover { color: #ff303a; }
+    main {
+      min-height: 70vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 70px 20px;
+      background: radial-gradient(ellipse at center, #35090d 0%, #090909 65%);
+    }
+    .hero { max-width: 760px; }
+    .wolf {
+      color: #ed202b;
+      font-size: 68px;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: clamp(34px, 7vw, 66px); margin: 10px 0; }
+    h1 span { color: #ed202b; }
+    p { color: #c5c5c5; line-height: 1.7; }
+    .button {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 14px 25px;
+      background: #e51f2a;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .button:hover { background: #b9141e; }
+    footer {
+      padding: 28px 15px;
+      border-top: 1px solid #292929;
+      text-align: center;
+      font-size: 14px;
+    }
+    footer p { font-size: 12px; }
+    footer a { margin: 0 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WOLF <span>RED</span> LAUNCHER</div>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="terms.html">Conditions</a>
+    </nav>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div class="wolf">🐺</div>
+      <h1>WOLF <span>RED</span> LAUNCHER</h1>
+      <p>Un launcher gaming au style noir et rouge, conçu pour réunir tes jeux au même endroit.</p>
+      <p>Bienvenue dans l'univers WOLF RED.</p>
+      <a class="button" href="#informations">Découvrir le projet</a>
+    </section>
+  </main>
+
+  <section id="informations" style="max-width:760px;margin:auto;padding:35px 20px;text-align:center">
+    <h2>À propos du projet</h2>
+    <p>WOLF RED LAUNCHER est un projet de launcher pour PC. Les fonctionnalités et les jeux disponibles dépendent de la version installée.</p>
+  </section>
+
+  <footer>
+    <div>
+      <a href="privacy.html">Politique de confidentialité</a>
+      <a href="terms.html">Conditions d'utilisation</a>
+    </div>
+    <p>© 2026 WOLF RED LAUNCHER — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
